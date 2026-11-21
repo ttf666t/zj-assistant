@@ -1,6 +1,6 @@
 {
-  "versionName": "1.9.9",
-  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v1.9.9/ZJ-Assistant-v1.9.9.apk",
-  "changelog": "[强制更新]\n\n1. 修复签到改状态：部分人改不了的问题\n2. 自己匹配增强：stuId 优先 + 名字归一化（去空格/同学后缀）\n3. POST 补签补全参数：activityId/activityTypeId/curState/curTab/teachDate\n4. PUT 失败自动降级 POST 补签\n5. 申请表单：名字/电话/来源渠道",
+  "versionName": "2.0.0",
+  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.0.0/ZJ-Assistant-v2.0.0.apk",
+  "changelog": "[强制更新]\n\n1. 修复强制更新失效：CDN 缓存旧版本导致误判无更新\n2. 多源结果改为取版本号最高，不再\"先到先得\"\n3. 发现比当前新的版本立即强制，不等其它源\n4. 签到改签匹配增强 + 补签参数补全",
   "force": true
 }
