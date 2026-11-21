@@ -1,6 +1,6 @@
 {
-  "versionName": "1.9.6",
-  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v1.9.6/ZJ-Assistant-v1.9.6.apk",
-  "changelog": "[强制更新]\n\n1. 修复申请误同意：同意按钮点击后立即禁用，1.5 秒后自动刷新\n2. 云端幂等：已通过的申请不会重复分配邀请码\n3. 一个申请只对应一个邀请码\n4. 多源更新 + 更新日志显示 + 开屏强制更新保留",
+  "versionName": "1.9.7",
+  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v1.9.7/ZJ-Assistant-v1.9.7.apk",
+  "changelog": "[强制更新]\n\n1. 更新页面不再显示更新日志，用户只看版本和更新按钮\n2. 申请同意防误点、云端幂等\n3. 多源更新并发",
   "force": true
 }
