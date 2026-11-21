@@ -1,6 +1,6 @@
 {
-  "versionName": "2.1.2",
-  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.2/ZJ-Assistant-v2.1.2.apk",
-  "changelog": "[强制更新]\n\n1. 恢复 ZJ小助手 包名 com.icve.zhijiao.toolbox（上一版误发成学习助手包名）\n2. 修复 SPOC 作业/考试列表：补 spoc/classExam/student/list 和 examList 真实列表接口\n3. 列表补 courseId，并发超时 20s → 8s，不再卡「正在拉取列表」\n4. 状态字段归一：examStatus/status/isSubmit/finishStatus/score 都识别为已提交\n5. 分类过滤按来源接口判定\n6. 申请审核 / 刷新状态 / 注册账号管理 / 多源强制更新 全部保留",
+  "versionName": "2.1.3",
+  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.3/ZJ-Assistant-v2.1.3.apk",
+  "changelog": "[强制更新]\n\n1. 修复后台显示异常：CloudSync 云端读写被清空导致\n   - 注册账号管理显示 0 人\n   - 邀请码全部显示「绑定：无」\n   - 申请审核一直加载\n2. 补回 api.github.com 真实 get/put 实现（读/写 activations/banned/requests）\n3. 云端文件不存在时自动创建空数组\n4. 仓库坐标 ttf666t/zj-assistant 已填回\n5. SPOC 作业/考试列表修复、签到改签、多源强制更新全部保留",
   "force": true
 }
