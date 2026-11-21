@@ -1,6 +1,6 @@
 {
-  "versionName": "2.0.0",
-  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.0.0/ZJ-Assistant-v2.0.0.apk",
-  "changelog": "[强制更新]\n\n1. 修复强制更新失效：CDN 缓存旧版本导致误判无更新\n2. 多源结果改为取版本号最高，不再\"先到先得\"\n3. 发现比当前新的版本立即强制，不等其它源\n4. 签到改签匹配增强 + 补签参数补全",
+  "versionName": "2.1.1",
+  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.1/Study-Assistant-v2.1.1.apk",
+  "changelog": "[强制更新]\n\n1. 修复 SPOC 作业/考试列表拉取不到：补上 spoc/classExam/student/list 和 examList 两个真实列表接口\n2. 列表接口补 courseId，并发超时 20s → 8s，不再卡「正在拉取列表」\n3. 状态字段归一：examStatus/status/isSubmit/finishStatus/score 都识别为已提交\n4. 分类过滤按来源接口判定，作业/考试/测验不再串\n5. 空列表给出可诊断提示",
   "force": true
 }
