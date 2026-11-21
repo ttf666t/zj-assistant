@@ -1,6 +1,6 @@
 {
-  "versionName": "2.1.1",
-  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.1/Study-Assistant-v2.1.1.apk",
-  "changelog": "[强制更新]\n\n1. 修复 SPOC 作业/考试列表拉取不到：补上 spoc/classExam/student/list 和 examList 两个真实列表接口\n2. 列表接口补 courseId，并发超时 20s → 8s，不再卡「正在拉取列表」\n3. 状态字段归一：examStatus/status/isSubmit/finishStatus/score 都识别为已提交\n4. 分类过滤按来源接口判定，作业/考试/测验不再串\n5. 空列表给出可诊断提示",
+  "versionName": "2.1.2",
+  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.2/ZJ-Assistant-v2.1.2.apk",
+  "changelog": "[强制更新]\n\n1. 恢复 ZJ小助手 包名 com.icve.zhijiao.toolbox（上一版误发成学习助手包名）\n2. 修复 SPOC 作业/考试列表：补 spoc/classExam/student/list 和 examList 真实列表接口\n3. 列表补 courseId，并发超时 20s → 8s，不再卡「正在拉取列表」\n4. 状态字段归一：examStatus/status/isSubmit/finishStatus/score 都识别为已提交\n5. 分类过滤按来源接口判定\n6. 申请审核 / 刷新状态 / 注册账号管理 / 多源强制更新 全部保留",
   "force": true
 }
