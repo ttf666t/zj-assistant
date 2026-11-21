@@ -1,7 +1,7 @@
 {
-  "versionCode": 73,
-  "versionName": "2.1.4",
-  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.4/ZJ-Assistant-v2.1.4-backto200.apk",
+  "versionCode": 74,
+  "versionName": "2.1.5",
+  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.5/ZJ-Assistant-v2.1.5.apk",
   "force": true,
-  "changelog": "[强制更新]\n\n1. 2.0.0 稳定版（代码一致，仅版本号提升）\n2. 后台云端数据正常显示\n3. 作业/考试/签到保持 2.0.0 原样"
+  "changelog": "[强制更新]\n\n测试推送：代码与 2.0.0 一致，仅版本号提升，用于验证云更新链路是否正常"
 }
