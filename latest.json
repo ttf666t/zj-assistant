@@ -1,7 +1,7 @@
 {
   "versionCode": 75,
-  "versionName": "2.1.6-需卸载重装",
-  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.6-%E9%9C%80%E5%8D%B8%E8%BD%BD%E9%87%8D%E8%A3%85/ZJ-Assistant-v2.1.6.apk",
+  "versionName": "2.1.6",
+  "apkUrl": "https://github.com/ttf666t/zj-assistant/releases/download/v2.1.6/ZJ-Assistant-v2.1.6.apk",
   "force": true,
   "changelog": "[强制更新]\n\n【重要公告】本版已更换签名证书，App 内自动更新会提示「签名冲突 / 安装失败」，这是正常现象。\n\n正确升级步骤：\n1. 用浏览器打开下载页 https://github.com/ttf666t/zj-assistant/releases/latest\n2. 下载 ZJ-Assistant-v2.1.6.apk\n3. 卸载手机上的旧版本\n4. 安装刚下载的新版本\n\n说明：\n· 卸载不影响云端激活记录，重新填写邀请码即可\n· 本地登录态与本地题库会清空，重新登录一次即可\n· 从本版起签名固定，后续版本恢复 App 内自动更新\n\n本次更新内容：代码与 2.1.5 一致，仅提升版本号（75 / 2.1.6），用于验证强制更新通道。"
 }
